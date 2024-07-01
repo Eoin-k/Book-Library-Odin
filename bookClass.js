@@ -16,19 +16,6 @@ class Book {
         this.pages = pages;
         this.read = read;
     }
-
-      title() {
-        return this.title;
-     } 
-     author() {
-        return this.author
-     }
-     pages () {
-        return this.pages
-     }
-     read() {
-        return this.read
-     }
 }
 
  const hobbit = new Book ("The Hobbit","J.R.R Tolkien",295,"Yes")
